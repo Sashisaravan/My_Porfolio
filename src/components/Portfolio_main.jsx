@@ -203,7 +203,7 @@ export default function PortfolioMain() {
         <div className={classes.heroGrid}>
           <div className={classes.leftSection}>
             <div className={classes.chip}>
-              Available for opportunities
+              Let's Build Together
             </div>
 
             <h1 className={classes.heading}>
@@ -215,9 +215,7 @@ export default function PortfolioMain() {
             </h1>
 
             <p className={classes.description}>
-              Product Engineer with 2.5+ years of experience building scalable web
-              applications using React, Node.js, and SQL Server.
-              Focused on clean code, performance, and great user experiences.
+              Product Engineer with 2.5+ years of experience building modern web applications using React, Node.js, and SQL Server. Skilled in creating responsive user interfaces, integrating APIs, and delivering performant, scalable solutions.
             </p>
 
             <div className={`${classes.topbandbutton}`}>

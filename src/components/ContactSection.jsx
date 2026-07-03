@@ -82,16 +82,14 @@ export default function ContactSection() {
   return (
     <section id="contact" className={classes.contactSection}>
       <p className={classes.sectionTag}>GET IN TOUCH</p>
-
       <h2 className={classes.sectionTitle}>
-        Let's Build Something <span>Amazing</span>
+        Open to New <span>Opportunities</span>
       </h2>
 
       <p className={classes.contactSubtitle}>
-        Have a project in mind or just want to chat? I'd love to hear from
-        you. Drop me a message and I'll get back to you as soon as possible.
+        I'm actively seeking Product Engineer and React Developer roles.
+        If you think I'd be a great fit for your team, I'd love to hear from you.
       </p>
-
       <div className={classes.contactGrid}>
         <div>
           <div className={classes.contactInfoCard}>
@@ -171,7 +169,7 @@ export default function ContactSection() {
               <input
                 type="text"
                 name="name"
-                placeholder="John Doe"
+                placeholder="Sashi Saravan"
                 value={formData.name}
                 onChange={handleChange}
                 required
@@ -184,7 +182,7 @@ export default function ContactSection() {
               <input
                 type="email"
                 name="email"
-                placeholder="john@example.com"
+                placeholder="sashi@example.com"
                 value={formData.email}
                 onChange={handleChange}
                 required
@@ -197,7 +195,7 @@ export default function ContactSection() {
               <textarea
                 rows={6}
                 name="message"
-                placeholder="Tell me about your project..."
+                placeholder="Write your message here..."
                 value={formData.message}
                 onChange={handleChange}
                 required

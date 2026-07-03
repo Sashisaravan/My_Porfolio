@@ -24,18 +24,17 @@ export const PortfolioStyles = makeStyles({
     transition: "all .3s ease",
   },
   toolbar: {
-    width: "100%",
-    maxWidth: 1450,
-    margin: "0 auto",
-    padding: "0 60px",
     display: "flex",
     alignItems: "center",
     justifyContent: "space-between",
-    boxSizing: "border-box",
-  },
+    width: "100%",
+    padding: "18px 40px",
 
+    "@media (max-width: 768px)": {
+      padding: "16px 20px",
+    },
+  },
   logo: {
-    display: "flex",
     alignItems: "center",
     gap: 5,
     cursor: "pointer",
@@ -49,11 +48,11 @@ export const PortfolioStyles = makeStyles({
   },
 
   headname: {
-    fontSize: 28,
+    fontSize: 24,
     fontWeight: 700,
     color: "#fff",
     letterSpacing: 1.2,
-    letterSpacing: '-2px'
+    letterSpacing: '-1px'
   },
 
   navLinks: {
@@ -115,7 +114,7 @@ export const PortfolioStyles = makeStyles({
 
     "@media (max-width:768px)": {
       minHeight: "auto",
-      padding: "120px 20px 70px",
+      padding: "85px 20px 70px",
     },
   },
   heroGrid: {
@@ -530,33 +529,34 @@ export const PortfolioStyles = makeStyles({
 
   "@media (max-width: 768px)": {
     appBar: {
-      padding: "18px 0",
+      padding: "14px 0",
     },
 
     toolbar: {
-      flexDirection: "column",
-      gap: 18,
+      display: "flex",
+      flexDirection: "row",
+      justifyContent: "space-between",
+      alignItems: "center",
       padding: "0 20px",
     },
 
     logo: {
+      marginTop: 0,
+      width: "auto",
+      fontSize: 24,
+    },
+
+    navLinks: {
+      display: "none",
+    },
+
+    menuButton: {
       display: "flex",
       alignItems: "center",
       justifyContent: "center",
-      width: "100%",
-      marginTop: "15%",
-      fontSize: 24,
+      cursor: "pointer",
     },
-    navLinks: {
-      flexWrap: "wrap",
-      justifyContent: "center",
-      gap: 20,
 
-
-      "& span": {
-        fontSize: 15,
-      },
-    },
     chip: {
       fontSize: 16,
       padding: "10px 18px",
@@ -1046,7 +1046,7 @@ export const PortfolioStyles = makeStyles({
 
     "& h3": {
       color: "#fff",
-      fontSize: 24,
+      fontSize: 20,
       marginBottom: 22,
     },
 
@@ -1153,7 +1153,7 @@ export const PortfolioStyles = makeStyles({
 
     "& h3": {
       color: "#fff",
-      fontSize: 28,
+      fontSize: 20,
       lineHeight: 1.4,
       margin: 0,
       width: "75%",
@@ -1196,9 +1196,10 @@ export const PortfolioStyles = makeStyles({
 
   projectDescription: {
     color: "#9CA3AF",
-    fontSize: 18,
+    fontSize: 16,
     lineHeight: 1.8,
     marginBottom: 28,
+    marginTop: 15,
     flex: 1,
   },
 
@@ -1477,14 +1478,14 @@ export const PortfolioStyles = makeStyles({
     "& h4": {
       margin: 0,
       color: "#7D7D8F",
-      fontSize: 14,
+      fontSize: 15,
       marginBottom: 8,
     },
 
     "& p,& a": {
       margin: 0,
       color: "#F8FAFC",
-      fontSize: 20,
+      fontSize: 18,
       fontWeight: 600,
       textDecoration: "none",
       transition: ".3s",
@@ -1549,7 +1550,7 @@ export const PortfolioStyles = makeStyles({
 
   findMeTitle: {
     color: "#8B8B99",
-    fontSize: 18,
+    fontSize: 16,
     fontWeight: 700,
     letterSpacing: 2,
     marginTop: 40,

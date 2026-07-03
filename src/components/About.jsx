@@ -14,11 +14,11 @@ export default function AboutSection() {
       <div className={classes.aboutGrid}>
         <div>
           <p className={classes.aboutText}>
-            I'm a <strong>Product Engineer</strong> with <strong>2.5+ years</strong> of experience building scalable, high-performance web applications using <strong>React.js</strong>, <strong>ASP.NET Core (C#)</strong>, and <strong>SQL Server</strong>. I enjoy creating clean, responsive, and user-focused products that deliver real business value.
+            I'm a Product Engineer with 2.5+ years of experience building scalable, high-performance web applications using React.js, Node.js, Express.js, and SQL Server. I focus on developing clean, responsive, and user-friendly applications that solve real-world problems and deliver meaningful business value.
           </p>
 
           <p className={classes.aboutText}>
-            I'm actively seeking opportunities to build innovative products, solve challenging problems, and collaborate with passionate teams. Let's connect and create something impactful together.
+            I'm currently looking for opportunities to build innovative products, solve challenging technical problems, and collaborate with talented teams. I'm always eager to learn new technologies and contribute to impactful projects.
           </p>
 
           <div className={classes.aboutButtons}>
