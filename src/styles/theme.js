@@ -923,6 +923,16 @@ export const PortfolioStyles = makeStyles({
     "& strong": {
       color: "#fff",
     },
+
+    "@media (max-width: 768px)": {
+      fontSize: 16,
+      lineHeight: 1.8,
+    },
+
+    "@media (max-width: 480px)": {
+      fontSize: 16,
+      lineHeight: 1.8,
+    },
   },
   aboutButtons: {
     display: "flex",
