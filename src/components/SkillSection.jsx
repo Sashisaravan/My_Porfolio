@@ -14,13 +14,9 @@ export default function SkillsSection() {
         "CSS3",
         "Bootstrap",
         "Material UI",
-        "jQuery",
-        "ASP.NET Core",
-        "C#",
         "Node.js",
         "Express.js",
-        "REST APIs",
-        "Java (Basics)",
+        "REST APIs"
       ],
     },
     {

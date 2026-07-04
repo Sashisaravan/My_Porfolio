@@ -220,7 +220,7 @@ export default function PortfolioMain() {
 
             <div className={`${classes.topbandbutton}`}>
               <a
-                href="https://drive.google.com/file/d/1eBDoPxcjR0tPrzaPVPUt8ffVXXwfFp-8/view?usp=sharing"
+                href="https://drive.google.com/file/d/1PX-B_hqzKnNB1A-IRPX7XZ42CcZXsBET/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={classes.resumeButton}
@@ -228,8 +228,8 @@ export default function PortfolioMain() {
                 Download Resume
               </a>
 
-              <a href="#experience" className={classes.linkedinButton}>
-                View My Work
+              <a href="#contact" className={classes.linkedinButton}>
+                Let's Connect
               </a>
             </div>
             <div className={classes.socialIcons}>
