@@ -90,6 +90,9 @@ export default function FooterSection() {
             <p className={classes.footerCopyright}>
                 © {new Date().getFullYear()} Sashi Saravan. Turning Ideas into Scalable Solutions.
             </p>
+            <p className={classes.lastUpdated}>
+                Last Updated: July 10, 2026
+            </p>
         </footer>
     );
 }

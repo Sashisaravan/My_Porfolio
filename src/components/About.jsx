@@ -23,7 +23,7 @@ export default function AboutSection() {
 
           <div className={classes.aboutButtons}>
             <a
-              href="https://drive.google.com/file/d/1PX-B_hqzKnNB1A-IRPX7XZ42CcZXsBET/view?usp=sharing"
+              href="https://drive.google.com/file/d/1GQBDEZE8o8Ta05dCJ65Y3XvXkGSRmctR/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className={classes.resumeButton}

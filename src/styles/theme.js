@@ -1804,4 +1804,10 @@ export const PortfolioStyles = makeStyles({
     color: "#6B7280",
     fontSize: 15,
   },
+  lastUpdated: {
+    marginTop: "8px",
+    fontSize: "0.85rem",
+    color: "#9CA3AF",
+    textAlign: "center",
+},
 });
