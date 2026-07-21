@@ -220,7 +220,7 @@ export default function PortfolioMain() {
 
             <div className={`${classes.topbandbutton}`}>
               <a
-                href="https://drive.google.com/file/d/1Rg9O2n140yn8IlB3MKhDQ-XHMcoSlDNm/view?usp=sharing"
+                href="https://drive.google.com/file/d/10BGIkBNavJe68Si1qynP3hAnwsN3PpqV/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={classes.resumeButton}
